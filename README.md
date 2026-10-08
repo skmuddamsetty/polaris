@@ -54,3 +54,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 3. npx shadcn@3.6.2 add button card accordion
 
 4. npm install next-themes@0.4.6
+
+5. https://dashboard.clerk.com/apps
+
+6. Create application and give application name and select Email and Github as Sign in options
+
+7. npm install @clerk/nextjs@6.36.5
+
+8. npm i @clerk/themes@2.4.46
