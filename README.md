@@ -62,3 +62,19 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 7. npm install @clerk/nextjs@6.36.5
 
 8. npm i @clerk/themes@2.4.46
+
+9. Install Convex and refer for quick start https://docs.convex.dev/quickstart/nextjs
+
+10. npm i convex@1.31.2
+
+11. create a sampleData.jsonl
+
+12. paste the sample data provided in the quick start inside the sampleData.jsonl
+
+13. npx convex import --table tasks sampleData.jsonl
+
+14. https://docs.convex.dev/auth/clerk#nextjs - use this to configure convex inside clerk
+
+15. Add clerk related env variables inside convex from .env.local
+
+https://dashboard.convex.dev/t/santhosh-kumar-muddamsetty/polaris/brazen-rook-417/settings/environment-variables
